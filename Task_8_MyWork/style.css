@@ -1,0 +1,50 @@
+body {
+    background-color: aqua;
+    margin: 0;
+    padding: 20px;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.header {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+
+
+.iphoneWrap {
+    display: flex;
+    border-radius: 5%;
+    gap: 25px;
+    margin-bottom: 24px;
+    margin-top: 24px;
+    padding: 0;
+    justify-content: space-between;
+}
+.title{
+    font-size: 20px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px;
+    width: 33%;
+    border-radius: 5px;
+
+}
+
+.footer {
+   
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    border-radius: 5px;
+    padding-left: 10px;
+    height: 10vh;
+   justify-content: space-around;
+   
+}
